@@ -64,8 +64,8 @@ window.onload = function() {
     
     // Gui buttons
     var buttons = [ { x: 30, y: 240, width: 150, height: 50, text: "New Game"},
-                    { x: 30, y: 300, width: 150, height: 50, text: "Show Moves"},
-                    { x: 30, y: 360, width: 150, height: 50, text: "Enable AI Bot"}];
+                    { x: 30, y: 300, width: 150, height: 50, text: "Show Moves"}];
+                   
     
     // Initialize the game
     function init() {
@@ -301,7 +301,7 @@ window.onload = function() {
         // Draw title
         context.fillStyle = "#ffffff";
         context.font = "24px Verdana";
-        context.fillText("Match3 Example - Rembound.com", 10, 30);
+        context.fillText("Tile Crush", 10, 30);
         
         // Display fps
         context.fillStyle = "#ffffff";
